@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction:row;
+    margin: 0;
+  }
+  nav
+  {
+ background: #D7E8D4;
+  }
+  .col-1{
+  	
+  	background-color: yellowgreen;
+  }
+  .col-2{
+  	display:flex;
+  	flex:1;
+  	flex-direction:column;
+  	
+  }
+  
+ /* #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+  }
+  #main > nav {
+    background: #D7E8D4;
+    order: 3;
+  }*/
+  
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }*/
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+</style></head>
+<body>
+	<div class="col-1">
+	<nav>Nav</nav>
+	</div>
+	 <div id="col-2">
+
+  <header>Header</header>
+<main class="content">
+     <article>Article</article>
+    
+    <aside>Aside</aside>
+ </main>
+  <footer>Footer</footer>
+   </div>
+</body>
+
+</html>

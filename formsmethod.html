@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+
+</head>
+<body>
+<form>
+	<div class="chip">
+    <img src="img.jpg" alt="Contact Person">
+    Sayed Asif
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocomplete">  
+        </div>
+      </div>
+    </div>
+  </div>
+<input type="text" autofocus>
+<input type="text" value="characters">
+<input type="range" max="95">
+<input type="range" min="2">
+<input type="file" multiple>
+<form action="https://example.org" method="GET" novalidate>
+<input type="submit" formaction="hhtps;//example.org/save" value="Save">
+<h4>Carousel</h4>
+ <div class="carousel">
+  <a  class="carousel-item" target="_blank" href="img_forest.jpg">
+ <img id= img1 src="img5.JPG" alt="Forest">
+  <img id= img1 src="img6.JPG" alt="Forest">
+  <img id= img1 src="img7.JPG" alt="Forest">
+  <img id= img1 src="img8.JPG" alt="Forest">
+  <img id= img1 src="img9.jpg" alt="Forest">
+</a>
+</form>
+</body>
+</html><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+	 document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.autocomplete');
+    var instances = M.Autocomplete.init(elems, options);
+  });
+
+   $(document).ready(function(){
+    $('.carousel').carousel();
+   });
+
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
